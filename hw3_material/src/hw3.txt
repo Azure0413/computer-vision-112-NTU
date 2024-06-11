@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+STARTTIME=$(date +%s)
+time python3 part1.py
+time python3 part2.py
+time python3 part3.py
+time python3 part4.py; 
+ENDTIME=$(date +%s)
+echo "Time elpased $(($ENDTIME - $STARTTIME)) seconds"
+
+python part1.py
+python part2.py
+python part3.py
+python part4.py
