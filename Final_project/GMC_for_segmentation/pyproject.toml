@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["cvfgmc*"]
+namespaces = false
+
+[project]
+name = "cvfgmc"
+version = "0.1.0"
+description = "Computer Vision Final Project - Global Motion Compensation"
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "pillow",
+    "scipy",
+    "tqdm"
+]
