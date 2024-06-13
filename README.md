@@ -16,4 +16,4 @@
 ## 5. Final project
 ### Global Motion compensation for MTK project
 排名第一 PSNR:55.86
-![image] https://github.com/Azure0413/computer-vision-112-NTU/blob/main/Final_project/rank.png
+![image]https://github.com/Azure0413/computer-vision-112-NTU/blob/main/Final_project/rank.png
